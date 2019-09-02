@@ -11,12 +11,16 @@
 		4DEF6C44B5256A74D57F0B6A /* Pods_RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6178A1239CEB64CC205E8D /* Pods_RxTest.framework */; };
 		BFF22CF17B560D01E451595B /* Pods_RxTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F8C762B3EFEDBDB1CAE586 /* Pods_RxTestTests.framework */; };
 		E4A3C90D231A029700A1E8C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A3C90C231A029700A1E8C1 /* AppDelegate.swift */; };
-		E4A3C90F231A029700A1E8C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A3C90E231A029700A1E8C1 /* ViewController.swift */; };
 		E4A3C912231A029700A1E8C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A3C910231A029700A1E8C1 /* Main.storyboard */; };
 		E4A3C914231A029900A1E8C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A3C913231A029900A1E8C1 /* Assets.xcassets */; };
 		E4A3C917231A029900A1E8C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A3C915231A029900A1E8C1 /* LaunchScreen.storyboard */; };
 		E4A3C922231A029A00A1E8C1 /* RxTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A3C921231A029A00A1E8C1 /* RxTestTests.swift */; };
 		E4A3C92D231A029A00A1E8C1 /* RxTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A3C92C231A029A00A1E8C1 /* RxTestUITests.swift */; };
+		E4A3C943231B828C00A1E8C1 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A3C942231B828C00A1E8C1 /* Result.swift */; };
+		E4A3C948231B835700A1E8C1 /* WikiSeachAPIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A3C947231B835700A1E8C1 /* WikiSeachAPIViewModel.swift */; };
+		E4A3C94A231B838500A1E8C1 /* WikiSeachAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A3C949231B838500A1E8C1 /* WikiSeachAPIModel.swift */; };
+		E4A3C94C231B839800A1E8C1 /* APICliant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A3C94B231B839800A1E8C1 /* APICliant.swift */; };
+		E4A3C94E231B83F600A1E8C1 /* WikiSeachAPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A3C94D231B83F600A1E8C1 /* WikiSeachAPIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +51,6 @@
 		CEEB60A4D0A83EAD7F4CB08E /* Pods-RxTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxTest/Pods-RxTest.release.xcconfig"; sourceTree = "<group>"; };
 		E4A3C909231A029700A1E8C1 /* RxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A3C90C231A029700A1E8C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4A3C90E231A029700A1E8C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E4A3C911231A029700A1E8C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4A3C913231A029900A1E8C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4A3C916231A029900A1E8C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +61,11 @@
 		E4A3C928231A029A00A1E8C1 /* RxTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A3C92C231A029A00A1E8C1 /* RxTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTestUITests.swift; sourceTree = "<group>"; };
 		E4A3C92E231A029A00A1E8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4A3C942231B828C00A1E8C1 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		E4A3C947231B835700A1E8C1 /* WikiSeachAPIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiSeachAPIViewModel.swift; sourceTree = "<group>"; };
+		E4A3C949231B838500A1E8C1 /* WikiSeachAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiSeachAPIModel.swift; sourceTree = "<group>"; };
+		E4A3C94B231B839800A1E8C1 /* APICliant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICliant.swift; sourceTree = "<group>"; };
+		E4A3C94D231B83F600A1E8C1 /* WikiSeachAPIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiSeachAPIViewController.swift; sourceTree = "<group>"; };
 		E5474FF9E70F271CE6945FB6 /* Pods-RxTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxTest/Pods-RxTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,8 +146,12 @@
 			isa = PBXGroup;
 			children = (
 				E4A3C90C231A029700A1E8C1 /* AppDelegate.swift */,
-				E4A3C90E231A029700A1E8C1 /* ViewController.swift */,
 				E4A3C910231A029700A1E8C1 /* Main.storyboard */,
+				E4A3C94D231B83F600A1E8C1 /* WikiSeachAPIViewController.swift */,
+				E4A3C947231B835700A1E8C1 /* WikiSeachAPIViewModel.swift */,
+				E4A3C949231B838500A1E8C1 /* WikiSeachAPIModel.swift */,
+				E4A3C94B231B839800A1E8C1 /* APICliant.swift */,
+				E4A3C942231B828C00A1E8C1 /* Result.swift */,
 				E4A3C913231A029900A1E8C1 /* Assets.xcassets */,
 				E4A3C915231A029900A1E8C1 /* LaunchScreen.storyboard */,
 				E4A3C918231A029900A1E8C1 /* Info.plist */,
@@ -385,7 +397,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4A3C90F231A029700A1E8C1 /* ViewController.swift in Sources */,
+				E4A3C948231B835700A1E8C1 /* WikiSeachAPIViewModel.swift in Sources */,
+				E4A3C943231B828C00A1E8C1 /* Result.swift in Sources */,
+				E4A3C94A231B838500A1E8C1 /* WikiSeachAPIModel.swift in Sources */,
+				E4A3C94C231B839800A1E8C1 /* APICliant.swift in Sources */,
+				E4A3C94E231B83F600A1E8C1 /* WikiSeachAPIViewController.swift in Sources */,
 				E4A3C90D231A029700A1E8C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
